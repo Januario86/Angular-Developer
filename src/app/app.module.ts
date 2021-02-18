@@ -4,16 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { CourseListComponent } from './courses/course-list.component';
 import { StarComponent } from './star/star.component';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     CourseListComponent,
-    StarComponent
+    StarComponent    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
